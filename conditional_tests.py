@@ -123,3 +123,4 @@ for user in new_users:
         "Please enter another name.\n")
     else: 
         print(f"The username {user} is available\n")
+
