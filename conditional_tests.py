@@ -96,6 +96,18 @@ favorite_fruits = ['Strawberry', 'Apple', 'Blueberries', 'Grapes', 'Grapefruit',
 'Orange', 'Pomegranete']
 
 if 'Strawberry' in favorite_fruits:
-    print('Wow you really like strawberries.')
+    print('Wow you really like strawberries.\n')
 
 
+#5-8 Hello Admin 
+
+usernames = ['admin', 'javery', 'dducan0603', 'joelmichaelavery', 'nqualls']
+
+if usernames:
+    for name in usernames:
+        if name == 'admin':
+            print("Hello Admin, would you like to see a status report?\n")
+        else:
+            print(f"Hello, {name} thank you for logging in again.\n")
+else:
+    print("We need to find some users!")
