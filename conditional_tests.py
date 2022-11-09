@@ -111,3 +111,15 @@ if usernames:
             print(f"Hello, {name} thank you for logging in again.\n")
 else:
     print("We need to find some users!")
+
+#new program to simulate how websites handle usernames
+current_users = ['joelmichaelavery', 'dducan0603', 'admin', 'nqualls', 'javery']
+
+new_users = ['joelmichaelavery', 'dducan0603', 'rock', 'bObama', 'DTrump']
+
+for user in new_users:
+    if user in current_users:
+        print(f"I am sorry but the user name {user}, is already taken.\n" 
+        "Please enter another name.\n")
+    else: 
+        print(f"The username {user} is available\n")
